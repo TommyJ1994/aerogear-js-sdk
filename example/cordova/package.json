@@ -12,7 +12,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aerogearservices/core-cordova": "file:../../packages/core-cordova",
+    "@aerogearservices/core-cordova": "file:///Users/jgallaso/Projects/aerogear/aerogear-js-sdk/packages/core-cordova",
     "browserify": "^16.1.0",
     "cordova": "^8.0.0",
     "cordova-android": "^7.1.0",
