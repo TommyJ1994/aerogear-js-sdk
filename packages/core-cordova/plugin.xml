@@ -9,12 +9,14 @@
     <license>Apache 2.0</license>
     <keywords>cordova,aerogear,mobile</keywords>
 
-    <js-module
-        name="core-cordova" 
-        src="www/core-cordova.js"
-    >
+    <js-module name="core-cordova" src="www/core-cordova.js">
         <clobbers target="cordova.plugins.core-cordova" />
     </js-module>
+
+    <dependency
+        id="core"
+        url="https://github.com/myuser/someplugin"
+    />
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*"> 

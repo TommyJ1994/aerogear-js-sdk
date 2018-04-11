@@ -1,4 +1,5 @@
 const exec = require("cordova/exec");
+const core = require("@aerogearservices/core");
 
 const MOBILE_CORE_CLASS = "MobileCoreModule";
 
@@ -9,7 +10,8 @@ const MetricsService = {
 };
 
 const MobileCore = {
-  MetricsService
+  MetricsService,
+  core
 };
 
 window.MobileCore = MobileCore;
